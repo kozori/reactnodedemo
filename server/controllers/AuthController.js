@@ -2,7 +2,7 @@ var bcrypt = require('bcrypt');
 var jwt = require('jsonwebtoken');
 
 var User = require('../models/User')
-
+/**/
 module.exports = {
 
     login: function(username, password, callback){
